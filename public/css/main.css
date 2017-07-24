@@ -1,0 +1,464 @@
+/*
+ * general colors
+ */
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+  font-weight: 900;
+  padding: 0 23px;
+  height: 48px;
+  width: 128px;
+  line-height: 46px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  background: #e3772c;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.5px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.btn:hover {
+  background: #e68643;
+  text-decoration: none;
+}
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  -webkit-box-shadow: 0px 0px 25px rgba(235, 121, 35, 0.5);
+  -moz-box-shadow: 0px 0px 25px rgba(235, 121, 35, 0.5);
+  -o-box-shadow: 0px 0px 25px rgba(235, 121, 35, 0.5);
+  box-shadow: 0px 0px 25px rgba(235, 121, 35, 0.5);
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: #363636;
+  font-size: 18px;
+  line-height: 1.4;
+  width: 100%;
+  height: 100%;
+  background: url('/img/bg.jpg');
+  background-repeat: repeat;
+}
+canvas {
+  background-color: #fff8ec;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #e3772c;
+  font-size: 30pt;
+  letter-spacing: -1pt;
+  margin: 0;
+  padding: 0;
+  margin-left: 5px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #363636;
+  font-size: 69pt;
+  line-height: 0.89;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lobster', cursive;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after,
+.container:after {
+  clear: both;
+}
+.content-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.text-center {
+  text-align: center;
+}
+.spacer {
+  height: 42px;
+}
+.spacer-small {
+  height: 30px;
+}
+@media (max-height: 500px) and (min-width: 768px) {
+  .content {
+    overflow-y: scroll;
+  }
+}
+@media (max-height: 430px) and (max-width: 767px) {
+  .content {
+    overflow-y: scroll;
+  }
+}
+.container {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -225px;
+  margin-left: -320px;
+}
+.container .shadow {
+  background: #e3772c;
+  position: absolute;
+  z-index: 0;
+  top: 18px;
+  left: 15px;
+  right: -18px;
+  bottom: -17px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  opacity: 0.2;
+}
+.container .shadow:after {
+  content: "";
+  width: 305px;
+  height: 32px;
+  background: #e3772c;
+  position: absolute;
+  bottom: -28px;
+  left: 174px;
+}
+.container .wrapper {
+  position: relative;
+  z-index: 4;
+  padding: 31px 40px;
+  background: #ffffff;
+  border: 4px solid #e3772c;
+}
+.container .navigation {
+  margin-bottom: -64px;
+  text-align: center;
+}
+.container ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  list-style: none;
+  color: #ffffff;
+  background-color: #e3772c;
+  text-transform: uppercase;
+  font-size: 9pt;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.container li {
+  display: inline-block;
+  position: relative;
+}
+.container li:after {
+  content: "/";
+  display: inline-block;
+  vertical-align: baseline;
+}
+.container li:last-child:after {
+  display: none;
+}
+.container a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 17px;
+  display: inline-block;
+}
+.container input {
+  background: transparent;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  height: 50px;
+  width: 100%;
+  color: #363636;
+  padding: 0;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.container input:focus {
+  outline: none;
+}
+.container input:focus + .border {
+  height: 5px;
+  margin-top: -5px;
+}
+.container input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(51, 51, 51, 0.5);
+  font-weight: 300;
+}
+.container input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(51, 51, 51, 0.5);
+  font-weight: 300;
+}
+.container input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(51, 51, 51, 0.5);
+  font-weight: 300;
+}
+.container input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(51, 51, 51, 0.5);
+  font-weight: 300;
+}
+.container .input {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 100%;
+  margin-right: -135px;
+  padding-right: 148px;
+  padding-left: 4px;
+  position: relative;
+}
+.container .border {
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-top: -1px;
+  background: #e3772c;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.container .button {
+  display: inline-block;
+  width: 130px;
+  vertical-align: baseline;
+  position: relative;
+  z-index: 4;
+}
+.container .form {
+  padding-bottom: 45px;
+}
+.container .limiter-message,
+.container .error-message {
+  display: none;
+  color: #ff2c00;
+  font-size: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -24px;
+  left: 4px;
+  right: 0;
+  padding-left: 24px;
+  padding-top: 2px;
+  letter-spacing: 0.5px;
+}
+.container .limiter-message.show,
+.container .error-message.show {
+  display: block;
+}
+.container .limiter-message:before,
+.container .error-message:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url('/img/error.png') no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .info-message {
+  display: none;
+  color: #789d62;
+  font-size: 10px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: -24px;
+  left: 4px;
+  right: 0;
+  padding-top: 2px;
+  letter-spacing: 0.5px;
+}
+.container .info-message.show {
+  display: block;
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 280px;
+    margin-top: -202px;
+    margin-left: -140px;
+  }
+  .container .wrapper {
+    padding: 31px 12px 0 12px;
+  }
+  .container .shadow {
+    top: 8px;
+    left: 8px;
+    right: -8px;
+    bottom: -8px;
+  }
+  .container .shadow:after {
+    display: none;
+  }
+  .container .input {
+    display: block;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 24px;
+  }
+  .container .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .container .form {
+    padding-bottom: 29px;
+  }
+  .container input {
+    text-align: center;
+  }
+  .container .navigation {
+    margin-bottom: -1px;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .container ul {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    display: block;
+  }
+  .container a {
+    padding-bottom: 3px;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+    font-size: 31pt;
+    margin-top: 2px;
+    margin-bottom: 28px;
+  }
+}
+@media (max-height: 500px) and (min-width: 768px) {
+  .container {
+    margin-top: 0;
+    top: 10px;
+  }
+}
+@media (max-height: 430px) and (max-width: 767px) {
+  .container {
+    margin-top: 0;
+    top: 10px;
+  }
+}
