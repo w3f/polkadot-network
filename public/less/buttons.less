@@ -1,0 +1,39 @@
+//basic button class
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: 900;
+    padding: 0 10px;
+    height: 48px;
+    width: 128px;
+    line-height: 46px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    background: @primary-color;
+    color: @white;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    .transition(all 0.3s ease);
+    .borderRadius(0);
+    .appearance(none);
+
+    &:hover{
+        background: lighten(@primary-color,5%);
+        text-decoration: none;
+    }
+
+    &:focus {
+        text-decoration: none;
+        outline: none;
+        .boxShadow(0px 0px 25px rgba(235, 121, 35, 0.5));
+    }
+}
+
+@media(max-width: 991px){
+
+}
