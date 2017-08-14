@@ -1,0 +1,109 @@
+<html class="no-js" lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Polkadot</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
+
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Montserrat:300,500,600,900&amp;subset=latin-ext" rel="stylesheet">
+
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:300&amp;subset=latin-ext" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:500&amp;subset=latin-ext" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:600&amp;subset=latin-ext" />
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:900&amp;subset=latin-ext" />
+        <![endif]-->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+    </head>
+    <body>
+        <div class="content-wrapper">
+            <canvas id="dots" height="50" width="50" style="width: 100%; height: 100%; position: absolute;"></canvas>
+
+            <div class="content">
+                <div class="container">
+                    <div class="spacer-small"></div>
+                    <div class="wrapper">
+                        <form action="/signup" class="form" method="post" id="leadGenForm">
+                            <h1>Polkadot</h1>
+                            <div class="spacer-small"></div>
+                            <h2>Connect the DOTs</h2>
+                            <p>The <b>Web 3 Foundation</b> is excited to announce the <b>Polkadot DOT</b> token pre-sale.</p>
+
+                            <p>The <b>Web 3 Foundation</b> (W3F) is undertaking all responsibility to develop and deploy the Polkadot network, the first system of its kind that enables truly general and trust-free inter-chain transacting. The <b>Polkadot</b> network will use <b>DOT</b> tokens as a measure of stake within the network, requiring them to take part in the governance and direction of the overall system as well as payment for certain kinds of operations within the system such as the bonding of commercial chains.</p>
+
+                            <p>Pursuant to certain identity requirements forced on us by international regulations, we are happy to allow citizens and organisations of almost all jurisdictions globally the opportunity to participate in this event (we are sad to note that due to legal restrictions, we are unable to accept the contributions of citizens of Japan). We will endeavour to make the certification as cheap, swift and convenient as possible.</p>
+
+                            <p>The sale will be a <b>"spend-all" second-price Dutch auction</b> where a fixed amount representing 50% of the total genesis block allocation of tokens will be sold. We will certainly accept Ether in the sale; other crypto-currencies may also be accepted depending on technical feasibility and timeline.</p>
+
+                            <p>We are targeting <b>mid-August</b> for the start of the sale; we intend to issue a 14-day countdown once we have the specific date nailed down.</p>
+
+                            <p>As a form of Dutch auction, the token price (and therefore "cap") starts high and decreases over time until all tokens are sold. The timetable of how fast the price reduces is predefined, starting fast and getting slower over time. The final details, including identity requirements and auction timetable will be published along with the specific date that the sale will begin in the near future.</p>
+
+                            <p><b>Tokens purchased during this sale will not exist until the genesis block launch, currently estimated to happen in Q3 2019.</b></p>
+                            <div class="spacer-small"></div>
+
+                            <div class="input">
+                                <input type="text" placeholder="Enter your e-mail address" id="email" name="email"/>
+                                <span class="border"></span>
+                                <span class="error-message">Error! You have entered an invalid email</span>
+                                <span class="limiter-message">Too many requests, please try again later</span>
+                                <span class="info-message">You will be notified</span>
+                            </div>
+                            <div class="button">
+                                <button type="submit" class="btn">Update me</button>
+                            </div>
+                        </form>
+
+                        <div class="navigation">
+                            <ul>
+                                <li><a href="https://github.com/w3f/polkadot-white-paper/blob/master/PolkaDotPaper.pdf" target="_blank">Paper</a></li>
+                                <li><a href="http://polkadot.io/" target="_blank">Tech</a></li>
+                                <li><a href="https://riot.im/app/#/room/#polkadot-trenches:matrix.org" target="_blank">Chat</a></li>
+                                <li><a href="https://twitter.com/polkadotnetwork/" target="_blank">Tweet</a></li>
+                                <!--<li><a href="#" target="_blank">Chat</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="spacer-small"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            main.addEvent(window, "onload", main.init());
+        </script>
+
+     	<script>
+  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  	ga('create', 'UA-103354191-1', 'auto');
+  	ga('send', 'pageview');
+
+	</script>
+    </body>
+</html>
+
