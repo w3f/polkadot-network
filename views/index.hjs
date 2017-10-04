@@ -49,20 +49,23 @@
                             <h1>Polkadot</h1>
                             <div class="spacer-small"></div>
                             <h2>Connect the DOTS</h2>
-                            <p>The <b>Web 3 Foundation</b> is excited to announce the <b>Polkadot DOT</b> token pre-sale.</p>
 
                             <p>The <b>Web 3 Foundation</b> (W3F)  is undertaking all responsibility to develop and deploy the Polkadot network, the first system of its kind that enables truly general and trust-free inter-chain transacting. The Polkadot network will use DOT tokens as a measure of stake within the network, and as a means of participation in the governance and direction of the overall system, as well as for payment for certain kinds of operations within the system such as the bonding of commercial chains.</p>
 
-                            <p>Pursuant to certain identity requirements imposed by international regulations, we are happy to allow citizens and organisations of almost all jurisdictions globally the opportunity to participate in this event (we regret to note that due to legal restrictions, we are unable to accept contributions from citizens of Japan). We will endeavour to make the certification as cheap, swift and convenient as possible.</p>
+                            <p>Pursuant to certain identity requirements imposed by international regulations, we are happy to allow citizens of almost all jurisdictions globally the opportunity to participate in this event. We will endeavour to make the certification as cheap, swift and convenient as possible.</p>
 
-                            <p>The sale will be a <b>"spend-all" second-price Dutch auction</b> where a fixed amount representing 50% of the total genesis block allocation of tokens will be sold. We will certainly accept Ether in the sale; other crypto-currencies may also be accepted depending on technical feasibility and timeline.</p>
+                            <p>The sale will be a "spend-all" second-price Dutch auction where a fixed amount representing 50% of the total genesis block allocation of tokens will be sold. We will certainly accept Ether in the sale; other crypto-currencies may also be accepted depending on technical feasibility and timeline.</p>
 
                             <p>As a form of Dutch auction, the token price (and therefore "cap") starts high and decreases over time until all tokens are sold. The timetable of how fast the price reduces is predefined, starting fast and getting slower over time. The final details, including identity requirements and auction timetable will be published along with the specific date that the sale will begin in the near future.
 Tokens purchased during this sale will not exist until the genesis block launch, currently estimated to happen in Q3 2019.</p>
 
-			   <p class="orangetext">After careful consideration, we have deemed it necessary to adjust our pre-sale target date. </p>
+			   <p class="orangetext">UPDATE: October 4, 2017 </p>
 
-			   <p class="orangetext">We still intend to issue a 14-day countdown once we have the specific date confirmed.</p>
+			   <p class="orangetext">The Polkadot auction will be using Parity's PICOPS <a href="https://picops.parity.io" style="color: #e3772c;padding:0";>https://picops.parity.io</a> as its KYC service.</p>
+
+			   <p class="orangetext">We regret that owing to regulatory uncertainty, citizens and residents of China and the USA will not be permitted to participate in the Polkadot auction.</p>
+
+			   <p class="orangetext">We intend to issue a <s>14-day countdown</s> 3 day countdown once we have the specific date confirmed.</p>
 			
 			  <p class="orangetext">All updates will be posted here and from <a href="https://twitter.com/polkadotnetwork/" style="color: #e3772c;padding:0";>@PolkadotNetwork</a></p>
                             <div class="spacer-small"></div>
@@ -114,4 +117,3 @@ Tokens purchased during this sale will not exist until the genesis block launch,
 	</script>
     </body>
 </html>
-
